@@ -1,0 +1,130 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+    font-family: "verdana";
+    text-align: center;
+}
+table
+{
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+/* HEADER ***************************************************************** */
+
+header
+{
+    margin-top: 1em;
+    background-image: url(dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg);
+    background-size: cover;
+    left:0;
+    right: 0;
+}
+nav ul
+{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-top: 1em;
+}
+nav a
+{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1rem;
+    color: white;
+}
+nav a:hover
+{
+    color: darkgrey;
+}
+.name
+{
+    padding: 10em 0;
+    color:antiquewhite;
+}
+/* ******************************** CONTENT ********************************* */
+.skills li
+{
+    list-style: none;
+    background-color: bisque;
+    padding: .1em;
+    color:#554455;
+    margin: .5em;
+}
+.ach li
+{
+    list-style: none;
+    background-color:#c4a1ff;
+    padding: .1em;
+    color:#554455;
+    margin: .5em;
+}
+.hobby li
+{
+    list-style: none;
+    background-color:palegoldenrod;
+    padding :.1em;
+    color:#554455;
+    margin: .5em;
+}
+/* ***************************** FOOTER ************************************ */
+footer
+{
+    background-color: gray;
+    color:white;
+    border: 1px dotted black;
+    bottom:0;
+}
+
+/******************** MEDIA QUERIES ************************************* */    
+@media (min-width:768px)
+{
+    nav ul
+    {
+        float: left;
+    }
+    .skills, .ach, .hobby
+    {
+        text-align: left;
+        margin-left: 1em;
+    }
+    .skills li
+{
+    list-style: none;
+    background-color: bisque;
+    padding :1em;
+    color:#554455;
+    margin: .5em;
+}
+.ach li
+{
+    list-style: none;
+    background-color:#c4a1ff;
+    padding :1em;
+    color:#554455;
+    margin: .5em;
+}
+.hobby li
+{
+    list-style: none;
+    background-color:palegoldenrod;
+    padding :1em;
+    color:#554455;
+    margin: .5em;
+}
+}
